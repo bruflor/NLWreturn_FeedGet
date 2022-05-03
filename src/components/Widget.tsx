@@ -12,7 +12,7 @@ export function Widget() {
   //   }
 
   return (
-    <Popover className=" absolute bottom-5 right-5 flex flex-col items-end">
+    <Popover className=" absolute bottom-5 right-5 md:bottom-8 md:right-10 flex flex-col items-end ">
       {/* {isWidgetOpen && <p>Hello</p>} */}
       <Popover.Panel>
         <WidgetForm />
