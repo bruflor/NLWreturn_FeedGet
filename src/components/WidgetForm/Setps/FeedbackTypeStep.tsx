@@ -9,7 +9,7 @@ export function FeedbackTypeStep({
 }: FeedbackTypeStepsProps) {
   return (
     <>
-      <header>
+      <header className="flex justify-between">
         <span className="text-xl leading-6">Deixe seu feedback</span>
         <CloseButton />
       </header>
